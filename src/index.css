@@ -22,7 +22,11 @@ code {
 @layer components {
   .btn {
     @apply rounded-full py-[10px] px-[25px] text-[white] font-bold shadow-md bg-gradient-to-r from-LimeGreen to-BrightCyan;
+
   }
 
+  a {
+    @apply text-[#2d314d]
+  }
 
 }
