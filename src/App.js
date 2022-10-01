@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/nav/Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl bg-gradient-to-tr from-pink-600 to-orange-600 font-bold underline">
-        Hello world!
-      </h1>
+      <Nav />
     </div>
   );
 }
