@@ -10,7 +10,7 @@ export default function Nav() {
         setToggle(prev => !prev)
     }
     return (
-        <nav className='sticky bg-[white]'>
+        <nav className='flex  items-center bg-White h-[65px] bg-white relative z-[90]'>
             <div className='maniNav container flex justify-between items-center  py-6 md:py-3'>
                 <div className="logo">
                     <img src={logo} alt="logo" />

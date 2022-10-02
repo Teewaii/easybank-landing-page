@@ -20,14 +20,21 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '1rem',
+        DEFAULT: '1.5rem',
         lg: '2rem',
+        xl: '0.1rem',
 
 
       },
       center: true,
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mobile-hero-pattern': "url('/src/img/bg-intro-mobile.svg')",
+        'desktop-hero-pattern': "url('/src/img/bg-intro-desktop.svg')",
+        'phone': "url('/src/img/image-mockups.png')",
+      }
+    },
   },
   plugins: [],
 }

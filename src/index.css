@@ -30,7 +30,7 @@ code {
   }
 
   h1 {
-    @apply text-[#2d314d] font-[500] text-[3rem] leading-[3.5rem]
+    @apply text-[#2d314d] font-[500] text-[2.5rem] leading-[3.5rem]
   }
 
   .body {
