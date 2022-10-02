@@ -8,14 +8,14 @@ export default function Hero() {
         <div className="wrapper  bg-VeryLightGray min-h-[93.7vh] pb-[88px]
           md:h-[653px]
           ">
-      <div className="container hero 
+      <div className=" hero 
     md:flex 
       ">
        
        
        
         <div className="hero-img bg-mobile-hero-pattern relative 
-        bg-cover bg-center bg-no-repeat min-h-[350px] w-[100%] border-2
+        bg-cover bg-center bg-no-repeat min-h-[350px] w-[100%] 
         before:bg-phone before:bg-no-repeat before:bg-cover before:bg-bottom  
         before:w-[95%] before:h-[100%]  before:absolute before:top-0 
         before:left-[10px] before:right-[10px] 
@@ -27,7 +27,7 @@ export default function Hero() {
         ">           
         </div>
 
-        <div className=" desc container pt-[50px] border-2 text-center
+        <div className=" desc container pt-[50px]  text-center
             md:flex md:flex-col md:text-left md:justify-center
             md:order-1 md:pl-0
 
