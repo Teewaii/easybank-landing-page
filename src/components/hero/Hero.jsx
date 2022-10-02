@@ -5,7 +5,7 @@ import deskBkg from '../../img/bg-intro-desktop.svg';
 
 export default function Hero() {
     return (
-        <div className="wrapper  bg-VeryLightGray max-h-[93.7vh] pb-[88px]
+        <div className="wrapper  bg-VeryLightGray min-h-[93.7vh] pb-[88px]
           md:h-[653px]
           ">
       <div className="container hero 
