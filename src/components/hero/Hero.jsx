@@ -7,7 +7,7 @@ import deskBkg from '../../img/bg-intro-desktop.svg';
 export default function Hero({ toggle, toggleMenu }) {
   return (
     <div className='cov h-90vh  bg-VeryLightGray pb-[50px]
-      lg:pb-0 relative
+      lg:pb-0 
       '>
       <div className="wrapper relative 
           ">
