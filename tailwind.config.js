@@ -15,7 +15,8 @@ module.exports = {
       'BrightCyan': '#2bb7da',
       'GrayishBlue': '#9698a6',
       'body-grey': '#f3f4f6',
-      'VeryLightGray': '#f3f4f6',
+      'VeryLightGray': '#fafafa',
+      'WhiteGray': '#f3f4f6',
       'White': '#ffffff',
     },
     container: {

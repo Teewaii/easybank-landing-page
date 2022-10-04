@@ -32,6 +32,9 @@ code {
   h1 {
     @apply text-[#2d314d] font-[500] text-[2.5rem] leading-[3.5rem]
   }
+  h2 {
+    @apply text-[#2d314d] font-[500] text-[1.8rem] leading-[3.5rem]
+  }
 
   .body {
     @apply text-[1.11rem] leading-[1.8rem] text-GrayishBlue
