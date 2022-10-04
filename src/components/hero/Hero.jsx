@@ -28,13 +28,15 @@ export default function Hero() {
       left-0 inset-x-0 top-[100px]
       ">
        
-      <div className="desc flex-col  text-center mt-[-50px]
-      lg:text-left lg:flex-1">      
+      <div className="desc flex-col  text-center lg:container
+      lg:text-left lg:flex-1  lg:scale-[1.1]
+      
+      ">      
             <h1 className=' text-[3rem] mb-[25px] lg:ml-[2rem]
-                       lg:max-w-[395px]                        
+                       lg:w-[605px]                        
                        '>Next generation digital banking</h1>
                        <p className='body lg:ml-[2rem]    
-                        lg:max-w-[436px] 
+                         lg:w-[550px]
                        '>Take your financial life online. Your Easybank account will be a one-stop-shop
                            for spending, saving, budgeting, investing, and much more.</p>
                            <div className="inviteBtn mt-[36px] ">

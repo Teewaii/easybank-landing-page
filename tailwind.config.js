@@ -23,8 +23,7 @@ module.exports = {
       padding: {
         DEFAULT: '1.5rem',
         lg: '2rem',
-        xl: '0.1rem',
-
+      
 
       },
       center: true,

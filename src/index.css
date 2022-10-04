@@ -21,12 +21,16 @@ code {
 
 @layer components {
   .btn {
-    @apply rounded-full py-[10px] px-[25px] text-[white] font-bold shadow-md bg-gradient-to-r from-LimeGreen to-BrightCyan;
+    @apply rounded-full py-[12px] px-[25px] text-[white]  shadow-md bg-gradient-to-r from-LimeGreen to-BrightCyan;
+
+  }
+  .grad {
+    @apply bg-gradient-to-r from-LimeGreen to-BrightCyan;
 
   }
 
   a {
-    @apply text-[#2d314d]
+    @apply text-[#2d314d] 
   }
 
   h1 {
@@ -35,9 +39,19 @@ code {
   h2 {
     @apply text-[#2d314d] font-[500] text-[1.8rem] leading-[3.5rem]
   }
+  .article-title {
+    @apply text-[#2d314d] font-[500] text-[1.5rem] leading-[3.5rem]
+  }
 
   .body {
     @apply text-[1.11rem] leading-[1.8rem] text-GrayishBlue
+  }
+
+  .footerLink {
+    @apply  text-[white] text-[19px]
+  }
+  span {
+    @apply text-[.9rem] leading-[1.8rem] text-GrayishBlue
   }
 
 }

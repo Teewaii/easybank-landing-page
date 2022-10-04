@@ -10,19 +10,20 @@ export default function Nav() {
         setToggle(prev => !prev)
     }
     return (
-        <nav className='flex  items-center bg-White  bg-white relative z-[90] lg:py-[15px] '>
-            <div className='maniNav container flex justify-between items-center  py-6 lg:py-3'>
+        <nav className='flex  items-center bg-White  bg-white relative z-[90] 
+        lg:py-[0px] '>
+            <div className='maniNav container flex justify-between items-center  py-6 lg:py-0'>
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
                 <ul
                     className={toggle ? 'hidden lg:flex flex-col gap-3 absolute top-[90px] left-[4%] right-[4%] py-6 lg:gap-[30px] lg:flex-row lg:py-0 rounded-[10px] lg:relative lg:top-0 lg:left-0 lg:right-0 ' : 'flex flex-col gap-3  bg-[white] absolute top-[90px] left-[5%] right-[5%] py-6 lg:gap-[30px] lg:flex-row lg:py-0 rounded-[10px] lg:relative lg:top-0 lg:left-0 lg:right-0 '}
                 >
-                    <li><a className='text-[20px] lg:text-[17px]' href="#">Home</a></li>
-                    <li><a className='text-[20px] lg:text-[17px]' href="#">About</a></li>
-                    <li><a className='text-[20px] lg:text-[17px]' href="#">Contact</a></li>
-                    <li><a className='text-[20px] lg:text-[17px]' href="#">Blog</a></li>
-                    <li><a className='text-[20px] lg:text-[17px]' href="#">Careers</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:hover:border-b-4  lg:hover:border-LimeGreen lg:py-[30px] text-[20px] lg:text-[19px]' href="#">Home</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:hover:border-b-4  lg:hover:border-LimeGreen lg:py-[30px] text-[20px] lg:text-[19px]' href="#">About</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:hover:border-b-4  lg:hover:border-LimeGreen lg:py-[30px] text-[20px] lg:text-[19px]' href="#">Contact</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:hover:border-b-4  lg:hover:border-LimeGreen lg:py-[30px] text-[20px] lg:text-[19px]' href="#">Blog</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:hover:border-b-4  lg:hover:border-LimeGreen lg:py-[30px] text-[20px] lg:text-[19px]' href="#">Careers</a></li>
                 </ul>
                 <div className="request hidden lg:flex">
                     <button className='btn scale-[0.9] hover:opacity-80 ease-in duration-150 lg:scale-[1] '>Request Invite</button>
