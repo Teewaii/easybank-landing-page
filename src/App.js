@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import About from './components/about/About';
 import Articles from './components/articles/Articles';
@@ -6,13 +7,22 @@ import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav';
 
 function App() {
+  const [toggle, setToggle] = useState(true);
+  function toggleMenu() {
+    setToggle(prev => !prev)
+  }
   return (
     <div className="App">
-      <Nav />
-      <Hero />
-      <About/>
-      <Articles/>
-      <Footer/>
+      <Nav
+        toggle={toggle}
+        toggleMenu={toggleMenu}
+      />
+      <Hero
+        toggle={toggle}
+        toggleMenu={toggleMenu} />
+      <About />
+      <Articles />
+      <Footer />
     </div>
   );
 }

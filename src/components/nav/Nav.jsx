@@ -3,15 +3,15 @@ import logo from '../../img/logo.svg';
 import hamburger from '../../img/icon-hamburger.svg';
 import close from '../../img/icon-close.svg';
 
-export default function Nav() {
-    const [toggle, setToggle] = useState(true);
+export default function Nav({ toggle, toggleMenu }) {
 
-    function toggleMenu() {
-        setToggle(prev => !prev)
-    }
+    // const [toggle, setToggle] = useState(true);
+    // function toggleMenu() {
+    //     setToggle(prev => !prev)
+    // }
     return (
-        <nav className='flex  items-center bg-White  bg-white relative z-[90] 
-        lg:py-[0px] '>
+        <nav className='flex sticky top-0 shadow-sm items-center bg-White  bg-white  z-[90] 
+        lg:py-[0px]  '>
             <div className='maniNav container flex justify-between items-center  py-6 lg:py-0'>
                 <div className="logo">
                     <img src={logo} alt="logo" />
@@ -35,12 +35,7 @@ export default function Nav() {
                     {toggle ? <img src={hamburger} alt="" /> :
                         <img src={close} alt="" />}
                 </div>
-                {!toggle &&
-                    <div className="overlay bg-gradient-to-b from-DarkBlue to-[white]
-                    absolute top-0 left-0 right-0 bottom-0 z-[-3] lg:hidden">
 
-                    </div>
-                }
             </div>
         </nav>
     )
