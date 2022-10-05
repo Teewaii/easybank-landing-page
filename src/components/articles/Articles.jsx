@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react'
+import React from 'react'
 // import article from '../../../src/article';
 import axios from 'axios'
 import currency from '../../img/image-currency.jpg';
@@ -6,19 +6,6 @@ import restaurant from '../../img/image-restaurant.jpg';
  import plane from '../../img/image-plane.jpg';
  import beta from '../../img/image-confetti.jpg';
 
-const user = [
-{
-    'name': 'John Doe',
-
-    'email': 'john.doe@example.com',
-
-    'age': 25,
-
-    'dob': '08/02/1989',
-
-    'img': '../../img/image-currency.jpg'
-}
-];
 
 export default function Articles() {
 
