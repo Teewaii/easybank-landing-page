@@ -40,7 +40,7 @@ export default function Hero({ toggle, toggleMenu }) {
                          lg:w-[550px]
                        '>Take your financial life online. Your Easybank account will be a one-stop-shop
             for spending, saving, budgeting, investing, and much more.</p>
-          <div className="inviteBtn hover:opacity-80 mt-[36px] ">
+          <div className="inviteBtn hover:opacity-80 hover:ease-in-out duration-300 mt-[36px] ">
             <button className='btn lg:ml-[2rem]
                           
                            '>Request Invite</button>

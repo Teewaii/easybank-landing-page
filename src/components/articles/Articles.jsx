@@ -43,44 +43,44 @@ export default function Articles() {
         lg:flex-row  lg:gap-[35px]
         ">
             
-        <div className="currenncy-card cursor-pointer hover:shadow-lg hover:ease-in dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
-    <img  src={currency} alt="" />
+        <div className="currenncy-card cursor-pointer hover:shadow-md hover:scale-[1.02] hover:ease-in-out duration-300  bg-White rounded-lg overflow-hidden shadow-sm" >
+    <img className='w-full'  src={currency} alt="" />
     <div className="info container pt-[30px] pb-[40px]  text-left flex flex-col gap-[13px]">
             <span className=''>By Claire Robinson</span>
-            <h2 className=' article-title leading-[35px]' >Receive money in any currency with no fees</h2>
+            <h2 className=' article-title leading-[35px] hover:text-LimeGreen ease-in-out duration-300' >Receive money in any currency with no fees</h2>
             <p className='body'>The world is getting smaller and we’re becoming more mobile. So why should you be 
         forced to only receive money in a single …</p>
   </div>
            
         </div>
 
-        <div className="treat-card cursor-pointer hover:shadow-lg hover:ease-in dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
-    <img src={restaurant} alt="" />
+        <div className="treat-card cursor-pointer hover:scale-[1.02] hover:shadow-md hover:ease-in-out dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
+    <img className='w-full' src={restaurant} alt="" />
     <div className="info container pt-[30px] pb-[40px]  text-left flex flex-col gap-[13px]">
             <span className=''>By Wilson Hutton</span>
-            <h2 className=' article-title leading-[35px]' >Receive money in any currency with no fees</h2>
+            <h2 className=' article-title leading-[35px] hover:text-LimeGreen ease-in-out 300' >Receive money in any currency with no fees</h2>
             <p className='body'>The world is getting smaller and we’re becoming more mobile. So why should you be 
         forced to only receive money in a single …</p>
   </div>
            
         </div>
 
-        <div className="travel-card cursor-pointer hover:shadow-lg hover:ease-in dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
-    <img src={plane} alt="" />
+        <div className="travel-card cursor-pointer hover:shadow-md hover:scale-[1.02] hover:ease-in-out dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
+    <img className='w-full' src={plane} alt="" />
     <div className="info container pt-[30px] pb-[40px]  text-left flex flex-col gap-[13px]">
             <span className=''>By Wilson Hutton</span>
-            <h2 className=' article-title leading-[35px]' >Take your Easybank card wherever you go</h2>
+            <h2 className=' article-title leading-[35px] hover:text-LimeGreen ease-in-out duration-300' >Take your Easybank card wherever you go</h2>
             <p className='body'>We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
             while you’re abroad. We’ll even show you …
 </p>
   </div>
    </div>
 
-        <div className="beta-card cursor-pointer hover:shadow-md  hover:ease-in-out dureation-150  bg-White rounded-lg overflow-hidden shadow-sm" >
-    <img src={beta} alt="" />
+        <div className="beta-card cursor-pointer hover:shadow-md hover:scale-[1.02]  hover:ease-in-out dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
+    <img className='w-full' src={beta} alt="" />
     <div className="info container pt-[30px] pb-[40px]  text-left flex flex-col gap-[13px]">
             <span className=''> By Claire Robinson</span>
-            <h2 className=' article-title leading-[35px]'>Our invite-only Beta accounts are now live!</h2>
+            <h2 className=' article-title leading-[35px] hover:text-LimeGreen ease-in-out duration-300'>Our invite-only Beta accounts are now live!</h2>
             <p className='body'>After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
   It’s easy to request an invite through the site ...</p>
   </div>

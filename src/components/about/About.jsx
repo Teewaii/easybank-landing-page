@@ -7,7 +7,7 @@ import api from '../../img/icon-api.svg';
 export default function About() {
   return (
     <div className='about bg-WhiteGray py-[67px] 
-    lg:text-left  lg:flex lg:flex-col lg:justify-center lg:min-h-[80vh]
+    lg:text-left  lg:flex lg:flex-col lg:justify-center lg:min-h-[65vh]
     '>
       <div className="header container mb-[60px] lg:mb-[90px]">
         <h1 className='leading-10 mb-[21px]'>Why choose Easybank?</h1>
