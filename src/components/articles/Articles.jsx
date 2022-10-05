@@ -54,7 +54,7 @@ export default function Articles() {
            
         </div>
 
-        <div className="treat-card cursor-pointer hover:scale-[1.02] hover:shadow-md hover:ease-in-out dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
+        <div className="treat-card cursor-pointer hover:scale-[1.02] hover:shadow-md hover:ease-in-out duration-300  bg-White rounded-lg overflow-hidden shadow-sm" >
     <img className='w-full' src={restaurant} alt="" />
     <div className="info container pt-[30px] pb-[40px]  text-left flex flex-col gap-[13px]">
             <span className=''>By Wilson Hutton</span>
@@ -65,7 +65,7 @@ export default function Articles() {
            
         </div>
 
-        <div className="travel-card cursor-pointer hover:shadow-md hover:scale-[1.02] hover:ease-in-out dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
+        <div className="travel-card cursor-pointer hover:shadow-md hover:scale-[1.02] hover:ease-in-out duration-300  bg-White rounded-lg overflow-hidden shadow-sm" >
     <img className='w-full' src={plane} alt="" />
     <div className="info container pt-[30px] pb-[40px]  text-left flex flex-col gap-[13px]">
             <span className=''>By Wilson Hutton</span>
@@ -76,7 +76,7 @@ export default function Articles() {
   </div>
    </div>
 
-        <div className="beta-card cursor-pointer hover:shadow-md hover:scale-[1.02]  hover:ease-in-out dureation-300  bg-White rounded-lg overflow-hidden shadow-sm" >
+        <div className="beta-card cursor-pointer hover:shadow-md hover:scale-[1.02]  hover:ease-in-out duration-300  bg-White rounded-lg overflow-hidden shadow-sm" >
     <img className='w-full' src={beta} alt="" />
     <div className="info container pt-[30px] pb-[40px]  text-left flex flex-col gap-[13px]">
             <span className=''> By Claire Robinson</span>
