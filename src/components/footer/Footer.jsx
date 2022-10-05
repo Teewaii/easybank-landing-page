@@ -48,6 +48,10 @@ export default function Footer() {
                     <p className="body">© Easybank. All Rights Reserved</p>
                 </div>
             </div>
+            <div className="container mt-4 text-sm text-White attribution">
+    Challenge by <a className='text-LimeGreen' href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a className='text-LimeGreen' href="https://github.com/Teewaii/easybank-landing-page.git">Teewai</a>.
+  </div>
         </div>
     )
 }
