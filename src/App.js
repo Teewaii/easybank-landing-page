@@ -16,6 +16,7 @@ function App() {
       <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
+        setToggle={setToggle}
       />
       <Hero
         toggle={toggle}

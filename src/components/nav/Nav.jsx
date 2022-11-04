@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import logo from '../../img/logo.svg';
 import hamburger from '../../img/icon-hamburger.svg';
 import close from '../../img/icon-close.svg';
+// import { Link } from 'react-router-dom'
 
-export default function Nav({ toggle, toggleMenu }) {
+export default function Nav({ toggle, toggleMenu, setToggle }) {
 
     // const [toggle, setToggle] = useState(true);
     // function toggleMenu() {
@@ -19,11 +20,11 @@ export default function Nav({ toggle, toggleMenu }) {
                 <ul
                     className={toggle ? 'hidden lg:flex flex-col gap-3 absolute top-[90px] left-[4%] right-[4%] py-6 lg:gap-[30px] lg:flex-row lg:py-0 rounded-[10px] lg:relative lg:top-0 lg:left-0 lg:right-0 ' : 'flex flex-col gap-3  bg-[white] absolute top-[90px] left-[5%] right-[5%] py-6 lg:gap-[30px] lg:flex-row lg:py-0 rounded-[10px] lg:relative lg:top-0 lg:left-0 lg:right-0 '}
                 >
-                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-4  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px] active:' href="#">Home</a></li>
-                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-4  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#">About</a></li>
-                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-4  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#">Contact</a></li>
-                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-4  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#">Blog</a></li>
-                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-4  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#">Careers</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-[5px]  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px] active:' href="#" onClick={() => setToggle(true)}>Home</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-[5px]  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#about" onClick={() => setToggle(true)}>About</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-[5px]  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#" onClick={() => setToggle(true)}>Contact</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-[5px]  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#blog" onClick={() => setToggle(true)}>Blog</a></li>
+                    <li className=' lg:py-[30px] '><a className='lg:focus:border-b-[5px]  lg:focus:border-LimeGreen focus:ease-in-out duration-150 lg:py-[30px] text-[20px] lg:text-[19px]' href="#" onClick={() => setToggle(true)}>Careers</a></li>
                 </ul>
                 <div className="request hidden lg:flex">
                     <button className='btn scale-[0.9] hover:opacity-80 ease-in-out duration-150 lg:scale-[1] '>Request Invite</button>

@@ -58,7 +58,7 @@ export default function Hero({ toggle, toggleMenu }) {
       </div>
 
       {!toggle &&
-        <div className="overlay bg-gradient-to-b from-DarkBlue to-[white]
+        <div onClick={toggleMenu} className="overlay bg-gradient-to-b from-DarkBlue to-[white]
                  opacity-[.7]   absolute top-0 left-0 right-0 bottom-0 z-[3] lg:hidden">
 
         </div>
